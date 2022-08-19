@@ -1,0 +1,14 @@
+// Paperweight stuff
+pluginManagement() {
+    repositories() {
+        gradlePluginPortal()
+
+        maven {
+            name = "papermc"
+            url = "https://repo.papermc.io/repository/maven-public/"
+        }
+    }
+}
+
+
+rootProject.name = 'orbital-economy'
