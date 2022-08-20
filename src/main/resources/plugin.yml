@@ -1,0 +1,7 @@
+name: OrbitalEconomy
+version: ${version}
+main: me.luizotavio.minecraft.EconomyPlugin
+authors:
+    - github.com/luiz-otavio
+depend:
+    - Vault
