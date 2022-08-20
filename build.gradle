@@ -86,7 +86,7 @@ shadowJar {
     relocate 'com.zaxxer', 'me.luizotavio.minecraft.hikari'
 
     for (driver in supportedDrivers) {
-        relocate driver, 'me.luizotavio.minecraft.driver'
+        relocate driver.split(':')[0], 'me.luizotavio.minecraft.driver'
     }
 }
 
